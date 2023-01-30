@@ -1,2 +1,3 @@
-# GameCodeur1
-1er projet de cours
+# GameCoder1
+main1 : init
+main2 : pong game
