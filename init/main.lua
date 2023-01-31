@@ -1,17 +1,17 @@
-------VARIABLE------
-------TABLEAU------
-------FONCTION LOAD------
-------FONCTION UPDATE------
-------FONCTION KEYPRESSED------
-------FONCTION MOUSEPRESSED------
-------FONCTION UTILE------
+------VARIABLE--------------------------------
+------TABLEAU---------------------------------
+------FONCTION LOAD---------------------------
+------FONCTION UPDATE-------------------------
+------FONCTION KEYPRESSED---------------------
+------FONCTION MOUSEPRESSED-------------------
+------FONCTION UTILE--------------------------
 
------LOAD----- : ACTION DU JEU AU DEMARAGE
+------LOAD : ACTION DU JEU AU DEMARAGE--------
 function love.load()
 end
 
 
------UPDATE----- : ACTION DU JEU A CHAQUE FRAME
+------UPDATE : ACTION DU JEU A CHAQUE FRAME---
 function love.update(dt)
 
 
@@ -23,17 +23,17 @@ function love.update(dt)
 end
 
 
------DRAW----- : DESSINE CE QUE TU VOIS A L'ECRAN
+------DRAW : DESSINE CE QUE TU VOIS A L'ECRAN-
 function love.draw()
 end
 
 
-
------KEYPRESSED----- : ACTION DU JOUEUR CLAVIER
+------KEYPRESSED : ACTION DU JOUEUR CLAVIER---
 function love.keypressed(key)
     print(key) 
 end
 
------MOUSEPRESSED----- : ACTION DU JOUEUR SOURIS
+
+------MOUSEPRESSED : ACTION DU JOUEUR SOURIS--
 function love.mousepressed(x,y,bouton)
 end
